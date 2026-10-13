@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #f0f0f0;
+}
+
+/* Hero Banner */
+.hero {
+  background: url("images/fitness1.jpg") center/cover no-repeat;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Day Buttons */
+.days {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.day-btn {
+  margin: 5px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #da1818;
+  color: rgb(14, 12, 12);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.day-btn:hover {
+  background: #ff512f;
+}
+
+.day-btn.active {
+  background: #ff512f;
+}
+
+/* Workouts */
+#workout-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.workout {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.workout img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.workout:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 81, 47, 0.7);
+}
+
+/* Gallery */
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 15px;
+}
+
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+footer .socials a:hover {
+  color: #ff512f;
+}

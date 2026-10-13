@@ -1,0 +1,6 @@
+db.php
+database.sql
+.env
+*.swp
+__pycache__/
+venv/

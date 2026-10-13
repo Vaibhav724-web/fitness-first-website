@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym & Diet - Workout Planner</title>
+  <link rel="stylesheet" href="workout.css">
+  
+
+</head>
+<body>
+
+  <!-- Hero Banner -->
+  <header class="hero">
+    <h1>💪 Weekly Workout Planner</h1>
+    <p>Stay Fit, Stay Strong, Stay Consistent</p>
+  </header>
+
+  <!-- Navigation Days -->
+  <section class="days">
+    <button class="day-btn" onclick="showWorkout('monday')">Monday</button>
+    <button class="day-btn" onclick="showWorkout('tuesday')">Tuesday</button>
+    <button class="day-btn" onclick="showWorkout('wednesday')">Wednesday</button>
+    <button class="day-btn" onclick="showWorkout('thursday')">Thursday</button>
+    <button class="day-btn" onclick="showWorkout('friday')">Friday</button>
+    <button class="day-btn" onclick="showWorkout('saturday')">Saturday</button>
+    <button class="day-btn" onclick="showWorkout('sunday')">Sunday</button>
+  </section>
+
+  <!-- Workout Content -->
+  <section id="workout-container">
+    <!-- Workouts will load here -->
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery">
+    <h2>🔥 Workout Inspiration</h2>
+    <div class="grid">
+      <img src="fit4.jpg" alt="Fitness 1">
+      <img src="fit6.jpg" alt="Fitness 2">
+      <img src="fit5.jpg" alt="Fitness 3">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Gym & Diet | Stay Fit, Stay Strong</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <script src="workout.js"></script>
+</body>
+</html>
